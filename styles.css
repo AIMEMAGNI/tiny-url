@@ -3,17 +3,14 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("background.jpg");
-    /* Replace with the path to your background image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgba(255, 255, 255, 0.5);
-    /* Adjust the alpha value (0.5 in this example) to change the opacity */
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /* Ensures the container takes up the full viewport height */
 }
  
 .container {
