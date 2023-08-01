@@ -1,24 +1,32 @@
 body {
-    background-image: url('background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: rgba(255, 255, 255, 0.2);
-    min-height: 100vh;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url("background.jpg");
+    /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Adjust the alpha value (0.5 in this example) to change the opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Ensures the container takes up the full viewport height */
 }
 
 .container {
     background-color: yellowgreen;
     color: #fff;
+    width: 100%;
     max-width: 400px;
     margin: 150px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 
 h1 {
     text-align: center;
